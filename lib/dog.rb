@@ -6,7 +6,7 @@ class Dog
 
   def initialize(name)
     @name = name
-    #@@all << self
+    #@@all << self    WHY DID WE TAKE THIS OUT? WHY ONLY ONE?
     save
   end
 
